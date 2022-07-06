@@ -5,15 +5,11 @@ import com.neovisionaries.ws.client.WebSocketAdapter;
 import com.neovisionaries.ws.client.WebSocketFactory;
 import com.neovisionaries.ws.client.WebSocketFrame;
 
-import org.java.json.JSONArray;
-import org.java.json.JSONObject;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.function.Consumer;
@@ -21,6 +17,8 @@ import java.util.function.Consumer;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import port.org.json.JSONArray;
+import port.org.json.JSONObject;
 
 
 public class CloroPush {

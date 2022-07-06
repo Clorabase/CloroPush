@@ -1,9 +1,9 @@
 package push.clorabase.messaging;
 
-import org.java.json.JSONObject;
-
 import java.util.Map;
 import java.util.Objects;
+
+import port.org.json.JSONObject;
 
 public final class Message {
     private final String from;
