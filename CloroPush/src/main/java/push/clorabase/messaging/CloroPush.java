@@ -116,7 +116,7 @@ public class CloroPush {
                 .url("https://clorabase.herokuapp.com/clorastore/CloroPushDatabase?path=clients/" + collection)
                 .delete(null)
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", "Basic 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")
+                .addHeader("Authorization", "Basic GITHUB_PERSONAL_TOKEN)
                 .build();
         client.newCall(request).execute();
     }
@@ -127,7 +127,7 @@ public class CloroPush {
                 .url("https://clorabase.herokuapp.com/clorastore/CloroPushDatabase?path=clients/" + collection)
                 .get()
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", "Basic 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")
+                .addHeader("Authorization", "Basic GITHUB_PERSONAL_TOKEN")
                 .build();
         Response response = client.newCall(request).execute();
         if (response.isSuccessful())
