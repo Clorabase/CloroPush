@@ -1,3 +1,6 @@
+## ⚠️DEPRECATED : NO LONGER WORKING
+The push messaging service was hosted on the Heroku free tier, since Heroku has ended support for free usage, all the APIs and services running on that are shutdown permanently.
+
 # CloroPush ~ a simple messaging protocol
 
 Cloropush messaging protocol is designed to be simple for simple uses. This can be used in chating app, when there is a new message or notification. In games, for any realtime event or in any application which requires to deliver realtime & offline messages to the client. The best thing is that you don't need a **server for this** to setup.
